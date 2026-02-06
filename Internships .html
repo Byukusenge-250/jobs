@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internships | OpportunitiesHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f4f6f8;
+      color:#333;
+    }
+
+    /* HEADER */
+    header{
+      background:#ffffff;
+      padding:15px 40px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .logo{
+      font-size:22px;
+      font-weight:bold;
+      color:#1e88e5;
+    }
+
+    nav a{
+      margin-left:20px;
+      text-decoration:none;
+      color:#333;
+      font-weight:500;
+    }
+
+    nav a.active{
+      color:#e53935;
+    }
+
+    /* HERO */
+    .hero{
+      background:linear-gradient(to right,#1e88e5,#42a5f5);
+      color:white;
+      text-align:center;
+      padding:70px 20px;
+    }
+
+    .hero h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:18px;
+    }
+
+    /* CARDS */
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+      padding:50px;
+    }
+
+    .card{
+      background:white;
+      border-radius:16px;
+      padding:20px;
+      box-shadow:0 8px 18px rgba(0,0,0,0.07);
+    }
+
+    .card img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:12px;
+      margin-bottom:15px;
+    }
+
+    .card h3{
+      color:#1e88e5;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      font-size:15px;
+      margin-bottom:12px;
+      color:#555;
+    }
+
+    .card a{
+      text-decoration:none;
+      color:#e53935;
+      font-weight:bold;
+    }
+
+    /* FOOTER */
+    footer{
+      background:#1e88e5;
+      color:white;
+      text-align:center;
+      padding:25px;
+      margin-top:50px;
+    }
+
+    @media(max-width:600px){
+      header{
+        flex-direction:column;
+        gap:10px;
+      }
+      .hero h1{
+        font-size:30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">🌍 OpportunitiesHub</div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="Internships .html" class="active">Internships</a>
+    <a href="Scholarships .html">Scholarships</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Global Internship Opportunities</h1>
+  <p>Start your career with top organizations worldwide</p>
+</section>
+
+<!-- INTERNSHIP CARDS -->
+<section class="cards">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Google Internship">
+    <h3>Google Internship Program</h3>
+    <p>Gain real-world experience in software engineering, design, and data science.</p>
+    <a href="https://careers.google.com/students/" target="_blank">
+      Apply on Google Careers →
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="UN Internship">
+    <h3>United Nations Internship</h3>
+    <p>Work with international teams and contribute to global development projects.</p>
+    <a href="https://careers.un.org/lbw/home.aspx?viewtype=IP" target="_blank">
+      Apply on UN Careers →
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Microsoft Internship">
+    <h3>Microsoft Internship Program</h3>
+    <p>Build skills in technology, business, and innovation with Microsoft experts.</p>
+    <a href="https://careers.microsoft.com/students/us/en" target="_blank">
+      Apply on Microsoft Careers →
+    </a>
+  </div>
+
+</section>
+<!-- FOOTER -->
+<footer>
+  © 2026 OpportunitiesHub — Empowering Global Talent
+</footer>
+
+</body>
+</html>
